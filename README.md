@@ -1,31 +1,35 @@
-*Psst — looking for an app template? Go here --> [sveltejs/template](https://github.com/sveltejs/template)*
+# svelte-component
 
----
+An opinionated starter template to create shareable Svelte components, featuring:
 
-# component-template
+- [x] Linting with [Standardjs](https://github.com/standard/standard)
+- [x] Workflow for local development and publishing
 
-A base for building shareable Svelte components. Clone it with [degit](https://github.com/Rich-Harris/degit):
+
+## Usage
+
+Clone with [degit](https://github.com/Rich-Harris/degit) and install dependencies
 
 ```bash
-npx degit sveltejs/component-template my-new-component
+npx degit zerodevx/svelte-component my-component
 cd my-new-component
-npm install # or yarn
+npm i
 ```
 
 Your component's source code lives in `src/Component.svelte`.
 
 You can create a package that exports multiple components by adding them to the `src` directory and editing `src/index.js` to reexport them as named exports.
 
-TODO
 
-* [ ] some firm opinions about the best way to test components
-* [ ] update `degit` so that it automates some of the setup work
+## Develop your component
 
+Start the server:
 
-## Setting up
+```bash
+$ npm run dev
+```
 
-* Run `npm init` (or `yarn init`)
-* Replace this README with your own
+This serves the `/docs` directory at `http://localhost:5000`.
 
 
 ## Consuming components
