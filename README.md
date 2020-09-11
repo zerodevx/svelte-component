@@ -1,4 +1,4 @@
-# svelte-component
+# svelte-component (WIP)
 
 An opinionated starter template to create shareable Svelte components, featuring:
 
