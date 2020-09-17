@@ -1,9 +1,9 @@
-# svelte-component (WIP)
+# svelte-component
 
 An opinionated starter template to create shareable Svelte components, featuring:
 
 - [x] Linting with [Standardjs](https://github.com/standard/standard)
-- [x] Workflow for local development and publishing
+- [x] Workflow for local development cum demo site
 
 
 ## Usage
@@ -29,7 +29,7 @@ Start the server:
 $ npm run dev
 ```
 
-This serves the `/docs` directory at `http://localhost:5000`.
+This serves the `/docs` directory at `http://localhost:5000`, and doubles-up as a demo site as well via Github Pages.
 
 
 ## Consuming components
