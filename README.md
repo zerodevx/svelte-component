@@ -5,21 +5,19 @@ An opinionated starter template to create shareable Svelte components, featuring
 - [x] Linting with [Standardjs](https://github.com/standard/standard)
 - [x] Workflow for local development cum demo site
 
-
 ## Usage
 
 Clone with [degit](https://github.com/Rich-Harris/degit) and install dependencies
 
 ```bash
-npx degit zerodevx/svelte-component my-component
-cd my-new-component
-npm i
+$ npx degit zerodevx/svelte-component my-component
+$ cd my-new-component
+$ npm i
 ```
 
 Your component's source code lives in `src/Component.svelte`.
 
 You can create a package that exports multiple components by adding them to the `src` directory and editing `src/index.js` to reexport them as named exports.
-
 
 ## Develop your component
 
@@ -30,7 +28,6 @@ $ npm run dev
 ```
 
 This serves the `/docs` directory at `http://localhost:5000`, and doubles-up as a demo site as well via Github Pages.
-
 
 ## Consuming components
 
