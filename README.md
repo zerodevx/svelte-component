@@ -11,7 +11,7 @@ Clone with [degit](https://github.com/Rich-Harris/degit) and install dependencie
 
 ```bash
 $ npx degit zerodevx/svelte-component my-component
-$ cd my-new-component
+$ cd my-component
 $ npm i
 ```
 
